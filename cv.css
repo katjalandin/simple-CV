@@ -1,0 +1,119 @@
+body, html {
+    background:url("background.jpg") no-repeat center fixed;
+   min-width: 920px;
+  width: 100%;
+  height: auto;
+   background-size:cover;
+   color:white;
+   font-family: Calibri, Maiandra GD;
+   font-size: 18px;
+   padding: 0px;
+}
+header h1{
+		text-align: center;
+}
+header a{
+	text-decoration: none;
+}
+.breadcrumbs{
+	float: left;
+	background-color:black;
+	height: 60px;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	
+}
+.breadcrumbs ul{
+	list-style-type: none;
+
+}
+.breadcrumbs ul li{
+	display: inline-block;
+	padding: 10px;
+
+}
+
+.main-container{
+	width:960px;
+	padding:0 10px;
+	margin:0 auto;
+}
+.description p{
+float:left;
+width: 50%;
+margin-left: 60px;
+}
+.description img{
+	width: 20%;
+	float: right;
+}
+.description h2{
+	margin-bottom: 0px;
+	margin-left: 60px;
+}
+.description {
+	float: none;
+	clear: both;
+}
+
+.education img{
+	width: 25%;
+	float: left;
+	background-color: white;
+}
+.column{
+	margin-left: 20px;
+	float: right;
+	width: 60%;
+} 
+.education h2, h3{
+	margin: 0px;
+}
+.nyckelord ul{
+	margin: 0px;
+	padding-left: 10px;
+}
+
+.contact-bild img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.contact-info{
+	text-align: center;
+ }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.social-networks{
+	text-align: center;
+
+}
+.btn-footer{
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: none;
+	text-align: center;
+}
+footer{
+	display: block;
+	background-color: black;
+	min-height:60px;
+	width: auto; 
+	margin-top: 20px;
+	text-align: center;
+}
+.main-container form{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.main-container textarea{
+	margin-top: 20px;
+}
+
+
